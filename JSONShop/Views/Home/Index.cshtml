@@ -1,0 +1,33 @@
+﻿<div>
+    <br />
+    <br />
+	<br />
+	<p>
+        Please use postman to test this api.  It's free and cross platform.  You can get it here: <a href="https://www.getpostman.com/">https://www.getpostman.com/</a>.
+    </p>
+    <p>
+        View products in the json shop: <a href="http://localhost:8082/api/product">http://localhost:8082/api/product</a>
+    </p>
+    <p>
+        View your cart total: <a href="http://localhost:8082/api/cart">http://localhost:8082/api/cart</a>
+    </p>
+    <p>
+        Some links for you to paste in into postman:
+        <br />
+        <br />
+        Product CRUD:
+        <br />
+        GET http://localhost:8082/api/product <br />
+        POST http://localhost:8082/api/product?name=Hammer&unit_price=10.0&special_qty=3&special_price=25.0 <br />
+        GET http://localhost:8082/api/product?name=Hammer <br />
+        PUT http://localhost:8082/api/product?name=Hammer&newName=Cheapo-Hammer&unit_price=7.5&special_qty=3&special_price=20.0 <br />
+        DELETE http://localhost:8082/api/product?name=Hammer <br />
+        <br />
+        Cart CRUD:
+        <br />
+        POST http://localhost:8082/api/cart?name=Hammer&qty=4 <br />
+        GET http://localhost:8082/api/cart <br />
+        PUT http://localhost:8082/api/cart?name=Hammer&qty=2 <br />
+        DELETE http://localhost:8082/api/cart?name=Hammer <br />
+    </p>
+</div>

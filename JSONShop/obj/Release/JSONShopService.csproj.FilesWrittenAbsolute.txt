@@ -1,0 +1,16 @@
+/home/glen/Desktop/JSONShop2/ArtProjectService/obj/Release/.NETFramework,Version=v4.6.AssemblyAttribute.cs
+/home/glen/Desktop/JSONShop2/ArtProjectService/bin/Microsoft.Web.Infrastructure.dll
+/home/glen/Desktop/JSONShop2/ArtProjectService/bin/System.Net.Http.Formatting.dll
+/home/glen/Desktop/JSONShop2/ArtProjectService/bin/System.Web.Helpers.dll
+/home/glen/Desktop/JSONShop2/ArtProjectService/bin/System.Web.Http.dll
+/home/glen/Desktop/JSONShop2/ArtProjectService/bin/System.Web.Http.WebHost.dll
+/home/glen/Desktop/JSONShop2/ArtProjectService/bin/System.Web.Mvc.dll
+/home/glen/Desktop/JSONShop2/ArtProjectService/bin/System.Web.Optimization.dll
+/home/glen/Desktop/JSONShop2/ArtProjectService/bin/System.Web.Razor.dll
+/home/glen/Desktop/JSONShop2/ArtProjectService/bin/System.Web.WebPages.dll
+/home/glen/Desktop/JSONShop2/ArtProjectService/bin/System.Web.WebPages.Deployment.dll
+/home/glen/Desktop/JSONShop2/ArtProjectService/bin/System.Web.WebPages.Razor.dll
+/home/glen/Desktop/JSONShop2/ArtProjectService/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+/home/glen/Desktop/JSONShop2/ArtProjectService/bin/Newtonsoft.Json.dll
+/home/glen/Desktop/JSONShop2/ArtProjectService/bin/WebGrease.dll
+/home/glen/Desktop/JSONShop2/ArtProjectService/bin/Antlr3.Runtime.dll
