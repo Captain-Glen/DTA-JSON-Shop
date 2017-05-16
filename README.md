@@ -32,6 +32,7 @@ you want an IDE to view the code) as well as git to get the code.
 DO NOT use the mono packages in the Ubuntu repos, as they are out of date and 
 won't work!
 
+```
 //install mono-complete
 $ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
 $ echo "deb http://download.mono-project.com/repo/debian wheezy main" | sudo tee /etc/apt/sources.list.d/mono-xamarin.list
@@ -65,7 +66,7 @@ $ xbuild
 running the code
 $ cd JSONShop
 MONO_IOMAP=all xsp4 --root . --port 8082
-
+```
 now go to localhost:8082 and check out my api :D
 
 ------------------------------------------------------------------------------
