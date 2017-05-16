@@ -58,7 +58,7 @@ sudo apt-get install git
 mkdir GLENsCode
 cd GLENsCode
 git init
-pull git://github.com/Captain-Glen/DTA-JSON-Shop.git
+git pull git://github.com/Captain-Glen/DTA-JSON-Shop.git
 
 //compiling the code (you must be in GLENsCode directory)
 xbuild
