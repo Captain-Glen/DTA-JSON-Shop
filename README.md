@@ -34,37 +34,37 @@ won't work!
 
 ```
 //install mono-complete
-$ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
-$ echo "deb http://download.mono-project.com/repo/debian wheezy main" | sudo tee /etc/apt/sources.list.d/mono-xamarin.list
-$ sudo apt-get update
-$ sudo apt-get install mono-complete
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
+echo "deb http://download.mono-project.com/repo/debian wheezy main" | sudo tee /etc/apt/sources.list.d/mono-xamarin.list
+sudo apt-get update
+sudo apt-get install mono-complete
 
 //install Monodevelop
-$ sudo add-apt-repository ppa:alexlarsson/flatpak
-$ sudo apt update
-$ sudo apt install flatpak
-$ flatpak install --user --from https://download.mono-project.com/repo/monodevelop.flatpakref
+sudo add-apt-repository ppa:alexlarsson/flatpak
+sudo apt update
+sudo apt install flatpak
+flatpak install --user --from https://download.mono-project.com/repo/monodevelop.flatpakref
 
 //run Monodevelop (if you want a GUI to view my code)
-$ flatpak run com.xamarin.MonoDevelop
+flatpak run com.xamarin.MonoDevelop
 
 //install apache2
-$ sudo apt-get install apache2
+sudo apt-get install apache2
 
 //install git
-$ sudo apt-get install git
+sudo apt-get install git
 
 //Getting the code
-$ mkdir GLENsCode
-$ cd GLENsCode
-$ git init
-$ pull git://github.com/Captain-Glen/DTA-JSON-Shop.git
+mkdir GLENsCode
+cd GLENsCode
+git init
+pull git://github.com/Captain-Glen/DTA-JSON-Shop.git
 
 //compiling the code (you must be in GLENsCode directory)
-$ xbuild
+xbuild
 
 running the code
-$ cd JSONShop
+cd JSONShop
 MONO_IOMAP=all xsp4 --root . --port 8082
 ```
 now go to localhost:8082 and check out my api :D
